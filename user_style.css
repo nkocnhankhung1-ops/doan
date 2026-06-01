@@ -1,0 +1,80 @@
+body {
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+    padding: 50px;
+}
+
+.tieu_de_trang {
+    display: flex;
+    flex-direction: row;
+    color: #2c3e50;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    justify-content: space-between
+}
+.tieu_de_trang button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tieu_de_trang button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(52, 152, 219, 0.4);
+}
+
+.khung_chua_viec_lam {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.the_cong_viec {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s all;
+}
+
+.the_cong_viec:hover {
+    transform: scale(1.1);
+    border: 2px solid #3498db;
+    background-color: rgb(235, 253, 253);
+    box-shadow: 0 4px 6px rgba(171, 14, 177, 0.42);
+    ;
+    color: blueviolet;
+}
+
+.the_cong_viec img {
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20%;
+    margin-bottom: 15px;
+}
+
+.nut_bam_nop_don {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nut_bam_nop_don:hover {
+    background-color: #2980b9;
+}

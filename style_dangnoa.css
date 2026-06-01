@@ -1,0 +1,99 @@
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.content {
+    text-align: center;
+    max-width: 450px; 
+    padding: 50px;
+    background: linear-gradient(135deg, #ffffff 0%, #f5f7ff 100%);
+    border-radius: 25px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    color: #333;
+    transition: all 0.4s ease;
+    border: 3px solid #667eea;
+    animation: bounce 3s infinite;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    color: #667eea;
+    margin-bottom: 10px;
+    animation: bounce 2s infinite;
+}
+
+.content p {
+    font-size: 1.1em;
+    color: #764ba2;
+    font-weight: bold;
+}
+
+.content:hover {
+    transform: scale(1.08) rotateZ(1deg);
+    border-color: #764ba2;
+    background: linear-gradient(135deg, #f5f7ff 0%, #ffffff 100%);
+    box-shadow: 0 30px 80px rgba(102, 126, 234, 0.4);
+    color: #764ba2;
+}
+
+.nutnhap {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+
+.nutnhap a.btn {
+    display: inline-block;
+    padding: 15px 35px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    border: none;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.nutnhap a.btn-admin {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.nutnhap a.btn-user {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.nutnhap a.btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transition: left 0.5s ease;
+    z-index: -1;
+}
+
+.nutnhap a.btn:hover {
+    transform: translateY(-5px) scale(1.12) rotateZ(-1deg);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.nutnhap a.btn:hover:before {
+    left: 100%;
+}
+
+.nutnhap a.btn:active {
+    transform: translateY(-2px) scale(1.05);
+}

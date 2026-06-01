@@ -1,0 +1,129 @@
+
+body.nen_giao_dien_toi {
+    background-color: #0f172a; 
+    margin: 0;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.khung_danh_sach {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #1e293b; 
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+.nut_quay_lai {
+    color: #38bdf8; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    transition: color 0.2s;
+}
+
+.nut_quay_lai:hover {
+    color: #7dd3fc;
+}
+
+
+.tieu_de_chinh {
+    font-size: 26px;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+
+
+.vung_chua_bang {
+    width: 100%;
+    overflow-x: auto; 
+}
+
+
+.bang_ho_so {
+    width: 100%;
+    border-collapse: collapse; 
+    text-align: left;
+}
+
+/* Thanh tiêu đề (Thẻ th) */
+.bang_ho_so th {
+    padding: 16px 12px;
+    border-bottom: 2px solid #334155;
+    color: #94a3b8; 
+    font-size: 14px;
+    text-transform: uppercase; 
+    letter-spacing: 0.5px;
+}
+
+/* Các ô nội dung (Thẻ td) */
+.bang_ho_so td {
+    padding: 16px 12px;
+    border-bottom: 1px solid #334155;
+    font-size: 15px;
+    vertical-align: middle; 
+}
+
+
+.chu_dam {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.chu_sang {
+    color: #cbd5e1;
+}
+
+.chu_mo {
+    color: #64748b;
+}
+
+.tai_cv {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.tai_cv:hover {
+    text-decoration: underline; 
+}
+
+
+.nut_bam_duyet {
+    background-color: #10b981;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 6px;
+    transition: background-color 0.2s;
+}
+
+.nut_bam_duyet:hover {
+    background-color: #059669;
+}
+
+
+.nut_bam_loai {
+    background-color: #f97316;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.nut_bam_loai:hover {
+    background-color: #ea580c;
+}

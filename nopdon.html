@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nộp Đơn Ứng Tuyển</title>
+    <link rel="stylesheet" href="/nopdon.css">
+</head>
+<body>
+
+<div class="tieu_de_trang">
+    <header>
+        <h1>ỨNG TUYỂN VIỆC LÀM</h1>
+    </header>
+</div>
+
+<div class="khung_form">
+    <a href="/index_user.html" class="nut_quay_lai">← Quay lại danh sách việc làm</a>
+    
+    <form action="/xetduyethoso.html" method="GET">
+        <div class="nhom_form">
+            <label for="cong_viec">Vị trí ứng tuyển</label>
+            <select id="cong_viec" name="cong_viec" required>
+                <option value="">-- Chọn công việc --</option>
+                <option value="kho">Nhân Viên Kho (9.000.000đ)</option>
+                <option value="sales">Bán Hàng Online (12.000.000đ)</option>
+                <option value="tai_xe">Tài Xế Giao Hàng (10.000.000đ)</option>
+                <option value="dev">Lập Trình Viên (15.000.000đ)</option>
+                <option value="idol">Idol Live (10.000.000đ)</option>
+                <option value="bao_ve">Giám Sát An Ninh (11.000.000đ)</option>
+            </select>
+        </div>
+
+        <div class="nhom_form">
+            <label for="ho_ten">Họ và tên</label>
+            <input type="text" id="ho_ten" name="ho_ten" placeholder="Nhập đầy đủ họ tên" required>
+        </div>
+
+        <div class="nhom_form">
+            <label for="so_dien_thoai">Số điện thoại</label>
+            <input type="tel" id="so_dien_thoai" name="so_dien_thoai" placeholder="Nhập số điện thoại liên hệ" required>
+        </div>
+
+        <div class="nhom_form">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Nhập địa chỉ email của bạn" required>
+        </div>
+
+        <div class="nhom_form">
+            <label for="cv">Đính kèm CV / Hồ sơ</label>
+            <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+        </div>
+
+        <div class="nhom_form">
+            <label for="tin_nhan">Lời nhắn đến nhà tuyển dụng (Không bắt buộc)</label>
+            <textarea id="tin_nhan" name="tin_nhan" rows="4" placeholder="Giới thiệu ngắn gọn về bản thân hoặc kinh nghiệm của bạn..."></textarea>
+        </div>
+
+        <button type="submit" class="nut_gui_don">Gửi Đơn Ứng Tuyển</button>
+    </form>
+</div>
+
+</body>
+</html>
